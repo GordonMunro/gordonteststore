@@ -32,14 +32,14 @@
           "footer-0": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
-              "menu": "footer"
+              "heading": "Menu",
+              "menu": "main-menu"
             }
           },
           "footer-1": {
             "type": "text",
             "settings": {
-              "heading": "Heading",
+              "heading": "About Our Store",
               "subtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
             }
           }
@@ -51,7 +51,7 @@
         "settings": {
           "color_scheme": "background-1",
           "newsletter_enable": true,
-          "newsletter_heading": "Subscribe to our emails",
+          "newsletter_heading": "Subscribe to our newsletter",
           "show_social": false,
           "enable_country_selector": true,
           "enable_language_selector": true,

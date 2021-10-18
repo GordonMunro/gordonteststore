@@ -33,6 +33,15 @@
     "collage": {
       "type": "collage",
       "blocks": {
+        "product": {
+          "type": "product",
+          "settings": {
+            "product": "bracelet-1",
+            "second_image": false,
+            "image_padding": false,
+            "secondary_background": false
+          }
+        },
         "collection": {
           "type": "collection",
           "settings": {
@@ -43,6 +52,7 @@
         }
       },
       "block_order": [
+        "product",
         "collection"
       ],
       "settings": {

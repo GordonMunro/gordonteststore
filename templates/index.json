@@ -33,18 +33,10 @@
     "collage": {
       "type": "collage",
       "blocks": {
-        "video": {
-          "type": "video",
-          "settings": {
-            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "description": "Describe the video",
-            "image_padding": false
-          }
-        },
         "product": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "bracelet-1",
             "second_image": false,
             "image_padding": false,
             "secondary_background": false
@@ -53,30 +45,20 @@
         "collection": {
           "type": "collection",
           "settings": {
-            "collection": "",
+            "collection": "bracelets",
             "image_padding": false,
             "color_scheme": "background-1"
           }
         }
       },
       "block_order": [
-        "video",
         "product",
         "collection"
       ],
       "settings": {
-        "heading": "Multimedia collage",
+        "heading": "Featured Collection",
         "desktop_layout": "left",
         "mobile_layout": "collage"
-      }
-    },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "Video",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false
       }
     },
     "multi_column": {
@@ -85,21 +67,24 @@
         "column1": {
           "type": "column",
           "settings": {
-            "title": "Column",
+            "image": "shopify:\/\/shop_images\/Cover-3.jpg",
+            "title": "Bracelet",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
         },
         "column2": {
           "type": "column",
           "settings": {
-            "title": "Column",
+            "image": "shopify:\/\/shop_images\/8784.jpg",
+            "title": "Bracelet and Earrings",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
         },
         "column3": {
           "type": "column",
           "settings": {
-            "title": "Column",
+            "image": "shopify:\/\/shop_images\/8785.jpg",
+            "title": "Bracelet",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
         }
@@ -125,7 +110,6 @@
     "image_banner",
     "featured_products",
     "collage",
-    "video",
     "multi_column"
   ]
 }

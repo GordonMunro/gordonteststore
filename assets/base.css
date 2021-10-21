@@ -150,7 +150,9 @@
 }
 
 /* base */
-
+body {
+  text-transform: uppercase !important;
+}
 .no-js:not(html) {
   display: none !important;
 }
@@ -847,7 +849,7 @@ summary::-webkit-details-marker {
 
 .title-wrapper-with-link {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-end;
   gap: 1rem;
   margin: 4rem 0 3rem;
@@ -1190,7 +1192,7 @@ deferred-media {
   color: rgb(var(--color-button-text));
   min-width: 12rem;
   min-height: 4.5rem;
-  transition: box-shadow var(--duration-short) ease;
+  transition: box-shadow 1s ease-in-out;
   -webkit-appearance: none;
   appearance: none;
 }
@@ -1937,7 +1939,7 @@ input[type='checkbox'] {
 
 .header__heading-link .h2 {
   line-height: 1;
-  color: #FFF;
+  
 }
 
 .header__heading-logo {
@@ -2005,9 +2007,13 @@ input[type='checkbox'] {
   width: 2rem;
   fill: none;
   vertical-align: middle;
+}
+.icon-color {
   color: #FFF;
 }
-
+.temp-color {
+  color: #303030;
+}
 .header__icon,
 .header__icon--cart .icon {
   height: 4.4rem;
@@ -2219,7 +2225,9 @@ details[open] > .header__icon--menu .icon-hamburger {
   transition: text-decoration var(--duration-short) ease;
   color: #FFF;
 }
-
+#header2 {
+  background-color: #e5f1f2;
+}
 .header__menu-item:hover span {
   text-decoration: underline;
   text-underline-offset: 0.3rem;

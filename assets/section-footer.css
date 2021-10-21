@@ -10,6 +10,7 @@
   padding-bottom: 5rem;
   padding-top: 5rem;
   display: block;
+  background-color: #f4e5e0;
 }
 
 @media screen and (max-width: 749px) {

@@ -284,7 +284,7 @@
   .card .media.media--hover-effect > img:only-child,
   .card-wrapper .media.media--hover-effect > img:only-child,
   .card--search img {
-    transition: transform var(--duration-long) ease;
+    transition: 1s ease-in-out;
   }
 
   .card:hover .media.media--hover-effect > img:first-child:only-child,

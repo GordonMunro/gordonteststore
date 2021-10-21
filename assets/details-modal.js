@@ -42,7 +42,7 @@ class DetailsModal extends HTMLElement {
     event.target.closest('details').setAttribute('open', true);
     document.body.addEventListener('click', this.onBodyClickEvent);
     document.body.classList.add('overflow-hidden');
-
+    document.querySelector('.header').style.position = "relative";
     trapFocus(
       this.detailsContainer.querySelector('[tabindex="-1"]'),
       this.detailsContainer.querySelector('input:not([type="hidden"])')
@@ -54,6 +54,7 @@ class DetailsModal extends HTMLElement {
     this.detailsContainer.removeAttribute('open');
     document.body.removeEventListener('click', this.onBodyClickEvent);
     document.body.classList.remove('overflow-hidden');
+    document.querySelector('.header').style.position = "fixed";
   }
 }
 

@@ -2,6 +2,7 @@
   display: block;
   overflow: hidden;
   text-decoration: none;
+  background-color: #d7d7d7;
 }
 
 .card-information + .card {

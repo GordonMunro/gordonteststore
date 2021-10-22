@@ -1,7 +1,9 @@
 .collage-section + .collage-section .no-heading {
   margin-top: -4rem;
 }
-
+.collage-wrapper {
+  max-width: 900px;
+}
 @media screen and (max-width: 749px) {
   .collage-wrapper-title {
     margin-top: -1rem;

@@ -31,8 +31,8 @@
           {%- for block in section.blocks -%}
             <div class="footer-block grid__item{% if block.type == 'link_list' and block.settings.heading != blank %} footer-block--menu{% endif %}" {{ block.shopify_attributes }}>
               {%- if block.settings.heading != blank -%}
-                <h2 class="footer-block__heading">{{- block.settings.heading | escape -}}</h2>
-              {%- endif -%}
+                <h2 class="">{{- block.settings.heading | escape -}}</h2>
+              {%- endif -%} 
 
               {%- case block.type -%}
                 {%- when 'text' -%}
@@ -77,9 +77,9 @@
       <div class="footer-block--newsletter">
         {%- if section.settings.newsletter_enable -%}
           <div class="footer-block__newsletter">
-            {%- if section.settings.newsletter_heading != blank -%}
+             {%- if section.settings.newsletter_heading != blank -%}
               <h2 class="footer-block__heading">{{ section.settings.newsletter_heading | escape }}</h2>
-            {%- endif -%}
+            {%- endif -%} 
             {%- form 'customer', id: 'ContactFooter', class: 'footer__newsletter newsletter-form' -%}
               <input type="hidden" name="contact[tags]" value="newsletter">
               <div class="newsletter-form__field-wrapper">

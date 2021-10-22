@@ -172,7 +172,9 @@ html.no-js .no-js-inline {
 html.no-js .no-js-hidden {
   display: none !important;
 }
-
+.page-top {
+  margin-top: 10rem;
+}
 .page-width {
   max-width: var(--page-width);
   margin: 0 auto;

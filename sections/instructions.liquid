@@ -1,0 +1,40 @@
+{% schema %}
+{
+    "name": "Hero",
+    "blocks": [
+        {
+            "type": "page",
+            "limit": 1,
+            "name": "Page Image",
+            "settings": [                
+                {
+                    "type": "page",
+                    "id": "page",
+                    "label": "t:sections.page.settings.page.label"
+                },
+    
+                {
+                    "type": "collection",
+                    "id": "collection",
+                    "label": "Collection"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "image_bg",
+                    "label": "Image Background"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "image_hover",
+                    "label": "Image Hover"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "Hero"
+        }
+    ]
+}
+{% endschema %}

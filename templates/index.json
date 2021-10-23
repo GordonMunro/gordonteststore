@@ -3,7 +3,7 @@
     "image_banner": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/8785.jpg",
+        "image": "shopify:\/\/shop_images\/sea-glass-in-the-sand.jpg",
         "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "flex-end",
@@ -33,15 +33,6 @@
     "collage": {
       "type": "collage",
       "blocks": {
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "bracelet-1",
-            "second_image": false,
-            "image_padding": false,
-            "secondary_background": false
-          }
-        },
         "collection": {
           "type": "collection",
           "settings": {
@@ -52,7 +43,6 @@
         }
       },
       "block_order": [
-        "product",
         "collection"
       ],
       "settings": {
@@ -95,13 +85,13 @@
         "column3"
       ],
       "settings": {
-        "title": "Multicolumn",
+        "title": "",
         "image_width": "full",
         "image_ratio": "adapt",
         "column_alignment": "left",
         "background_style": "primary",
         "button_label": "Shop Bracelets",
-        "button_link": "",
+        "button_link": "shopify:\/\/collections\/bracelets",
         "swipe_on_mobile": false
       }
     }

@@ -2192,9 +2192,9 @@ details[open] > .header__icon--menu .icon-hamburger {
 }
 
 @media screen and (min-width: 990px) {
-  .header__inline-menu {
+/*   .header__inline-menu {
     display: block;
-  }
+  } */
 
   .header--top-center .header__inline-menu {
     justify-self: center;

@@ -1,7 +1,7 @@
 {
   "current": {
-    "colors_solid_button_labels": "#FFFFFF",
-    "colors_accent_1": "#918c8c",
+    "colors_solid_button_labels": "#ffffff",
+    "colors_accent_1": "#e22120",
     "colors_accent_2": "#334FB4",
     "colors_text": "#121212",
     "colors_outline_button_labels": "#918c8c",
@@ -42,7 +42,7 @@
             "type": "text",
             "settings": {
               "heading": "About Our Store",
-              "subtext": "<p><br\/>SISTERS AND SEAGLASS was created by 2 sisters, Donna and Naomi, to honour creativity  and connections, not only between sisters, but also with family and community.<br\/><br\/><\/p>"
+              "subtext": "<p><br\/>SISTERS AND SEAGLASS was created by 2 sisters, Donna and Naomi, to honour creativity  and connections, not only between sisters, but also with family and community. <\/p><p><strong>sistersandseaglass@gmail.com<\/strong><br\/><br\/><\/p>"
             }
           }
         },

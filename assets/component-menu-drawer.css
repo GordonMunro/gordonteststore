@@ -23,7 +23,7 @@
 
 menu-drawer > details[open] > summary::before {
   visibility: visible;
-  opacity: .9;
+  opacity: 1;
   transition: opacity var(--duration-default) ease,
     visibility var(--duration-default) ease;
 }

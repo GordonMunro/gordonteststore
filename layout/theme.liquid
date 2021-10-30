@@ -171,7 +171,7 @@
     {% if template.name == "index" %}
      <script>// following code adapted from https://www.w3schools.com/howto/howto_js_shrink_header_scroll.asp
      window.onscroll = function() {scrollFunction()};
-     const headerElements = document.getElementsByClassName('icon');
+     const headerElements = document.querySelectorAll('header .icon');
      const menu_li = document.querySelectorAll('.header__menu-item span');
      function scrollFunction() {
        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
@@ -203,7 +203,7 @@
     {% if template.name != "index" %}
       <script>// following code adapted from https://www.w3schools.com/howto/howto_js_shrink_header_scroll.asp
       
-        const headerElements = document.getElementsByClassName('icon');
+        const headerElements = document.querySelectorAll('header .icon');
       const menu_li = document.querySelectorAll('.header__menu-item span');
         document.querySelector(".h2").style.color = "#303030";
           for (let i = 0; i < menu_li.length; i++) {

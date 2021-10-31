@@ -2333,7 +2333,7 @@ details-disclosure > details {
   /* background: var(--color-background);
   background: var(--gradient-background); */
   background-attachment: fixed;
-  background-color: #E5F1F2;
+/*   background-color: #E5F1F2; */
 }
 
 @media screen and (forced-colors: active) {

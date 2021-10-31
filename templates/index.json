@@ -94,12 +94,49 @@
         "button_link": "shopify:\/\/collections\/bracelets",
         "swipe_on_mobile": false
       }
+    },
+    "16357087723a784099": {
+      "type": "collection-list",
+      "blocks": {
+        "16357087723a784099-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bracelets"
+          }
+        },
+        "16357087723a784099-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "earrings"
+          }
+        },
+        "16357087723a784099-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "necklaces"
+          }
+        }
+      },
+      "block_order": [
+        "16357087723a784099-0",
+        "16357087723a784099-1",
+        "16357087723a784099-2"
+      ],
+      "settings": {
+        "title": "Collections",
+        "image_ratio": "square",
+        "color_scheme": "background-1",
+        "swipe_on_mobile": false,
+        "image_padding": false,
+        "show_view_all": false
+      }
     }
   },
   "order": [
     "image_banner",
     "featured_products",
     "collage",
-    "multi_column"
+    "multi_column",
+    "16357087723a784099"
   ]
 }

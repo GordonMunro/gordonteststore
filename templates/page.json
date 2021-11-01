@@ -39,46 +39,10 @@
         "color_scheme": "background-1",
         "layout": "image_first"
       }
-    },
-    "16357313308790f092": {
-      "type": "rich-text",
-      "blocks": {
-        "16357313308790f092-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "16357313308790f092-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>SISTERS AND SEAGLASS was created by 2 sisters, Donna and Naomi, to honour creativity  and connections, not only between sisters, but also with family and community. We are always  excited to collaborate with other inspired souls. Our diverse, hand-crafted wares are designed  with love, imagination, and a whole lot of discussion and laughter. <\/p><p><br\/>The ocean holds a special place in our hearts, and seaglass collecting on the West Coast is a  favourite pastime! Hence our name. Each piece of glass holds a story from the past and we  are privileged to continue the story into the future. The process of collecting, design, drilling  and wire wrapping is a learning journey and we are so happy to share the results with you<\/p><p>We strive to honour our planet, and aim to recycle and reuse whenever possible. You might  occasionally see us at our neighbourhood Thrift stores looking for possibilities to add to our  supplies and often stumble across treasures that are no longer used or have been cast aside.  We love these opportunities to take apart and recreate! <\/p><p><br\/>The descriptions of our jewelry will indicate materials and techniques used. We will also  include information on the very talented contributors who provide intriguing and original  products to add to our collections on our “Spotlight” page.<br\/><br\/>Custom work is also available if you have specific ideas. There is no end to the possibilities!  Our goal is to create, unique, original affordable products. Thanks for stopping by and keep  checking in, as our inventory is constantly changing.<\/p>"
-          }
-        },
-        "16357313308790f092-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "16357313308790f092-0",
-        "16357313308790f092-1",
-        "16357313308790f092-2"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true
-      }
     }
   },
   "order": [
     "main",
-    "1635708279b6ceb984",
-    "16357313308790f092"
+    "1635708279b6ceb984"
   ]
 }
